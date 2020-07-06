@@ -1,0 +1,28 @@
+.Images {
+  margin: 1.5em 0;
+  padding: 0;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  column-count: 3;
+}
+.Imgs {
+  display: inline-block;
+  margin: 0 0 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.test::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+}
+
+.Line {
+  border: 1.5px solid rgba(255, 74, 87, 1);
+  width: 50px;
+  margin-bottom: 50px;
+}

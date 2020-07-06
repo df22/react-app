@@ -1,0 +1,46 @@
+$color: #ff4a57;
+
+.Button {
+    color: white;
+    background: transparent;
+
+}
+
+.Primary {
+    color: white;
+    background: transparent;
+    border: 2px solid $color;
+    border-radius: 10rem;
+    padding: .75rem 2.5rem;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background: $color;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
+
+.Secondary {
+    color: white;
+    background: transparent;
+    border-radius: 10rem;
+    padding: .3rem 1rem;
+    margin: 0 .75rem;
+    box-shadow: 0;
+    border: 0;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background: $color;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
+
+.active {
+    border: 2px solid $color;
+}

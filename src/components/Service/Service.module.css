@@ -1,0 +1,39 @@
+.Card:hover {
+    background: rgba(255, 74, 87, 1);
+    color: #fff;
+}
+
+.Card {
+    background: rgba(255, 74, 87, 0);
+    transition: .25s ease-in;
+}
+
+.Card .Icon {
+    color: rgba(255, 74, 87, 1);
+    transition: .25s ease-in;
+}
+
+.Card:hover .Icon svg {
+    color: #fff;
+    transition: 1.5s;
+    transform: rotateY(360deg);
+}
+
+.Icon {
+    padding-bottom: 15px;
+    transform: rotateY(0deg);
+}
+
+.Container {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.Item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

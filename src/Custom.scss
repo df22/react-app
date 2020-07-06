@@ -1,0 +1,26 @@
+@use '~bootstrap/scss/bootstrap'  as b with (
+
+$body-bg: #23263a,
+$body-color: #fff,
+
+$font-family-base: "Poppins",
+
+$link-color: #fff,
+
+$theme-colors: (
+  "dark": #1f2235,
+  "light": #23263a,
+  "danger": #ff4a57
+),
+
+$link-hover-color: #ff4a57,
+
+$btn-border-radius: 10rem,
+$btn-border-width: 2px,
+$btn-padding-y: .75rem,
+$btn-padding-x: 2.5rem
+);
+
+.btn-outline-danger {
+    color: #fff;
+}
