@@ -55,7 +55,6 @@ const home = (props) => {
             <h1 className="my-4 font-weight-bold" style={{ fontSize: '3.5rem' }}>I am Johnatan Doe</h1>
             <h3 className="my-4 font-weight-light">i'm Jonathan, professional web developer with long time experience in this field</h3>
             <div>
-              <Button variant="outline-danger">My Portfolio</Button>
               <Btn variant='primary'>My Portfolio</Btn>
             </div>
           </Col>
